@@ -6,8 +6,8 @@
  */
 void controlC(int var)
 {
-write(1, "\n($) ", 5); 
-(void) var; 
+write(1, "\n($) ", 5);
+(void) var;
 }
 
 /**
@@ -17,7 +17,7 @@ write(1, "\n($) ", 5);
  * @argv: characters of the argument
  * Return: nothing
  */
-int main(int argc, char **argv)                       
+int main(int argc, char **argv)
 {
 (void) argc;
 signal(SIGINT, controlC);
