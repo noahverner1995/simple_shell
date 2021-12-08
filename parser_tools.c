@@ -47,7 +47,7 @@ return (copyPath);
 }
 
 /**
- * processTokens - Put all of the strings separated by 
+ * processTokens - Put all of the strings separated by
  * a delimiter in an array of strings
  * @tokens: n
  * @buffer: n
