@@ -23,7 +23,6 @@ break;
 fullPath = addPath(&tokens, path);
 isPath(&tokens, &fullPath, argv, &counter, &errorShowed);
 executeLine(&buffer, &tokens, fullPath);
-		
 counter++;
 }
 free_list(path);
