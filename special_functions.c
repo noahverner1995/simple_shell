@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isBasicExit - Check if the command passed 
+ * isBasicExit - Check if the command passed
  * by the user was "exit", if so, kill the
  * the interactive mode of the Shell
  * @tokens: n
