@@ -2,7 +2,7 @@
 
 /**
  * _getenv - searches for the environment string
- * pointed to by name 
+ * pointed to by name
  * @name:  This is the C string containing the name
  * of the requested variable
  * Return: the associated value to the string.
