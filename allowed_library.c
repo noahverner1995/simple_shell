@@ -3,7 +3,7 @@
 
 /**
  * _getchar - Get 1 char function
- * Return: Integer that represents the char 
+ * Return: Integer that represents the char
  */
 int _getchar(void)
 {
@@ -52,7 +52,6 @@ if (n_read >= *n)
 {
 n_realloc = *n + n_alloc;
 temp = realloc(*lineptr, n_realloc + 1);
-
 if (temp == NULL)
 return (-1);
 
@@ -61,14 +60,11 @@ return (-1);
 }
 n_read++;
 (*lineptr)[n_read - 1] = (char) c;
-
 if (c == '\n')
 break;
-                               
 }
 if (c == EOF)
 return (-1);
-
 (*lineptr)[n_read] = '\0';
 return ((ssize_t) n_read);
 }
