@@ -1,6 +1,6 @@
 ![This is an image](https://getlogovector.com/wp-content/uploads/2020/11/holberton-school-logo-vector.png)
 
-# Proyecto simple shell #
+# Simple shell #
 In this project, we must write a simple UNIX command interpreter using C language, similar to the UNIX shell. This will be our final project of the first trimestrer at Holberton School"
 
 For Holberton School.
@@ -64,6 +64,38 @@ $ ./hsh
 hsh main.c shell.c
 ($)
 ($) exit
-$ ```
+$
+```
+But also in non-interactive mode:
+```
+$ echo "/bin/ls" | ./hsh
+hsh main.c shell.c test_ls_2
+$
+$ cat test_ls_2
+/bin/ls
+/bin/ls
+$
+$ cat test_ls_2 | ./hsh
+hsh main.c shell.c test_ls_2
+hsh main.c shell.c test_ls_2
+$
+```
+### Included files
+The following files contain different functions that where used:
+- allowed_library.c
+- built-in_func.c
+- environ.c
+- executer_tools.c
+- holberton.h
+- list_tools.c
+- main.c
+- parser_tools.c
+- prints.c
+- shell_loop.c
+- string-tools-adv.c
+- string-tools.c
 
+## Authors :black_nib:
+* __Luis Ernesto Perafán Chacón__  <[noahverner1995](https://github.com/noahverner1995)>
+* __Kevin Ramirez__ <[xARKEINx](https://github.com/xARKEINx)>
 
