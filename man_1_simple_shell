@@ -1,0 +1,36 @@
+.TH man 1 "07 December 2021" "0.1" "simple_shell man page"
+.SH NAME
+.B simple_shell
+- Basic UNIX command interpreter.
+.SH SYNOPSIS
+.sp
+#include "holberton.h
+.SH DESCRIPTION
+simple_shell is a low-budget version of the original Shell.
+.sp
+.B Overview
+.sp
+As any low-budget program, it replicates a very limited but important set of commands from its original counterpart.
+It reads the input of the user from either a file or the terminal, interprets them, and hopefully executes them.
+.sp
+.B Invocation
+.sp
+If you want to activate the Interactive Mode, type "./hsh/" and then press Enter.
+Else, to activate the Non-interactive Mode, type "echo "/bin/yourcommand" | ./hsh"
+.sp
+The Interactive Mode prompts and let you introduce your command first, then does its magic, to finally execute your command.
+Letting you keep introducing more commands until you type "exit" or you run out of memory to allocate, whatever happens first.
+.sp
+The Non-interactive Mode, on the other hand, just executes your command and writes to the stdout the result of such execution.
+In order to keep executing commands, you would have to retype "echo "/bin/yourcommand" | ./hsh".
+.SH SEE ALSO
+.sp
+For more information check out man sh
+.sp
+.SH
+BUGS
+.sp
+Unfortunately, this program does not handle special characters : ", ', `, \, *, &, #
+Nor any kind of Edge Cases that yo could imagine.
+.SH AUTHOR
+Luis Ernesto Perafán Chacón and Kevin Ramirez, Cohort 16, Holberton School.
