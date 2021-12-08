@@ -7,7 +7,7 @@ For Holberton School.
 Cohort 16.
 Is a README.md for the repository 0X16.C - Simple Shell.
 
-## Requerimient ##
+## Requirements ##
 ### General ###
 
 - Allowed editors: vi, vim, emacs
