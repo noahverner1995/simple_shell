@@ -9,7 +9,6 @@ void shellLoop(char **argv)
 {
 ssize_t getLine = 1;
 char **tokens = NULL, *buffer = NULL, *fullPath = NULL;
-char *promt = "($) ";
 Node *path = NULL;
 char *pathCopy = NULL;
 int errorShowed = 0, counter = 1;
@@ -17,7 +16,6 @@ int errorShowed = 0, counter = 1;
 path = listpath(&pathCopy);
 while (TRUE)
 {
-write(1, promt, 5);
 fflush(stdout);
 getLine = readLine(&buffer, &tokens);
 if (getLine == EOF)
