@@ -6,7 +6,7 @@
  */
 void controlC(int var)
 {
-write(1, "\n", 1);
+write(1, "^C\n", 3);
 (void) var;
 }
 
