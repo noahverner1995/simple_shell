@@ -18,7 +18,7 @@ extern char **environ;
 
 /**
  * struct Node - singly linked list
- * @str: string  
+ * @str: string
  * @next: points to the next node
  *
  * Description: This singly linked list
@@ -67,7 +67,7 @@ char *_getenv(const char *name);
 Node *_getpathdir(char *path, char **pathCopy);
 
 /* Put the PATH into a linked list */
-Node *listpath(char **pathCopy); 
+Node *listpath(char **pathCopy);
 
 /* Return the path if found an executable file */
 char *addPath(char ***tokens, Node *path);
