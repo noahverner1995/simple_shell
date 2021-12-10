@@ -7,7 +7,10 @@ For Holberton School.
 Cohort 16.
 Is a README.md for the repository 0X16.C - Simple Shell.
 
-## Requirements ##
+## Article: What happens when you type `ls -l *.c` in the shell ##
+
+[Read it here 👀](https://medium.com/@3857/what-happens-when-you-type-ls-l-c-and-hit-enter-in-a-shell-da497f5c4720)
+
 ### General ###
 
 - Allowed editors: vi, vim, emacs
